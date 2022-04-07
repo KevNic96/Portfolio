@@ -1,0 +1,254 @@
+header {
+    height: 115vh;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+header h5{
+    padding-top: 110px;
+    font-size: 120px;
+}
+
+header h4{
+    font-size: 50px;
+}
+
+.text-light{
+    font-size: 20px;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ========== CTA ========== */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ========== HEADER SOCIALS ========== */
+.header__socials {
+    height: 350px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    position: absolute;
+    left: 0;
+    bottom: 25rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 3rem;
+    background: var(--color-primary);
+}
+
+/* ========== ME ========== */
+.me {
+    background: linear-gradient(white 10%, transparent);
+    position: relative;
+    width: 20rem;
+    left: calc(50% - 10rem);
+    /* border-top-right-radius: 12rem;
+    border-top-left-radius: 12rem; */
+    border-radius: 90rem 90rem 90rem 90rem;
+    overflow: hidden;
+}
+
+.img-me{
+    height: 330px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* ========== SCROLL DOWN ========== */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* --------------------CURVES----------------- */
+
+.custom-shape-divider-bottom-1648784455 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648784455 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1648784455 .shape-fill {
+    fill: #ac1a68;
+}
+
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+
+@media screen and (max-width:1024px){
+    header{
+        height: 130vh;
+    }
+
+    /* --------------------CURVES----------------- */
+
+.custom-shape-divider-bottom-1648784455 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648784455 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1648784455 .shape-fill {
+    fill: #ac1a68;
+}
+}
+
+header{
+    height: 130vh;
+}
+/* 
+.header__socials, .scroll__down {
+    display: none;
+} */
+
+.header__container h5{
+    font-size: 40px;
+}
+
+.header__container h4{
+    font-size: 40px;
+}
+
+.header__container .text-light{
+    font-size: 20px;
+}
+
+
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
+
+@media screen and (max-width:600px){
+   header{
+       height: 115vh;
+   }
+
+   .header__socials, .scroll__down {
+       display: none;
+   }
+
+   /* --------------------CURVES----------------- */
+
+    .custom-shape-divider-bottom-1648784455 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    }
+
+    .custom-shape-divider-bottom-1648784455 svg {
+    position: relative;
+    display: none;
+    width: calc(110% + 1.3px);
+    height: 60px;
+    }
+
+    .custom-shape-divider-bottom-1648784455 .shape-fill {
+    fill: #ac1a68;
+    }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
+
+@media screen and (max-width:412px){
+   header{
+       height: 115vh;
+   }
+
+   .header__socials, .scroll__down {
+       display: none;
+   }
+
+}
+
+@media screen and (max-width:384px){
+    header{
+        height: 115vh;
+    }
+ 
+    .header__socials, .scroll__down {
+        display: none;
+    }
+
+    .header__container h5{
+        font-size: 40px;
+    }
+
+    .header__container h4{
+        font-size: 40px;
+    }
+
+    .header__container .text-light{
+        font-size: 20px;
+    }
+ 
+ }
+
+ @media screen and (max-width:360px){
+    header{
+        height: 130vh;
+    }
+ 
+    .header__socials, .scroll__down {
+        display: none;
+    }
+
+    .header__container h5{
+        font-size: 40px;
+    }
+
+    .header__container h4{
+        font-size: 40px;
+    }
+
+    .header__container .text-light{
+        font-size: 20px;
+    }
+ 
+ }
+
